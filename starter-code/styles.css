@@ -1,0 +1,99 @@
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #24053E;
+    position: relative;
+    margin-bottom: 16.1rem;
+
+}
+
+.img-hero{
+    max-width: 76.7em;
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+    /* transform: translateY(-50%); */
+}
+
+.nav{
+    display: flex;
+    max-width: 112rem;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5.6rem;
+}
+
+.custom-shape-divider-top-1736800424 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1736800424 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 85px;
+}
+
+.shape-fill {
+    fill: #24053E;
+}
