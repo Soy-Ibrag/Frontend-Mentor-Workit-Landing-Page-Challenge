@@ -347,3 +347,155 @@ h6 {
   gap: 2.8rem;
   margin-bottom: 8rem;
 }
+
+@media (max-width: 768px) {
+  .nav {
+    width: 60%;
+  }
+
+  .img-hero {
+    width: 60.2rem;
+  }
+
+  .big-hero {
+    margin-bottom: 20rem;
+  }
+
+  .info-box {
+    flex-direction: column;
+  }
+
+  .box {
+    align-items: flex-start;
+    flex-direction: unset;
+    gap: 5.6rem;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .number {
+    margin-top: 4rem;
+  }
+
+  .founder {
+    width: 28rem;
+  }
+
+  .box-purple {
+    width: 50.4rem;
+    transform: translate(18%, 42%);
+    padding: 4.8rem;
+    margin-bottom: 30rem;
+  }
+
+  .box-purple h1 {
+    font-size: 4.8rem;
+  }
+
+  .box-purple p {
+    font-size: 1.6rem;
+  }
+
+  .coil {
+    transform: translateX(100%);
+  }
+
+  .socials {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .nav {
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .left-coil,
+  .right-coil {
+    visibility: hidden;
+  }
+
+  .img-hero {
+    width: 36rem;
+    transform: translateY(-30%);
+  }
+
+  .big-hero {
+    margin-bottom: 12rem;
+    padding: 0 2rem;
+  }
+
+  .hero-title {
+    font-size: 5rem;
+    line-height: 110%;
+    margin-bottom: 2rem;
+  }
+
+  .info-box {
+    flex-direction: column;
+    padding: 25rem 2rem 10rem 2rem;
+    margin-bottom: 10rem;
+  }
+
+  .box {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .number {
+    margin: 2rem auto 2rem auto;
+    padding: 2rem;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 2.4rem;
+  }
+
+  .description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  .founder {
+    width: 28rem;
+    transform: translate(10%, -45%);
+  }
+
+  .box-purple {
+    width: 33.5rem;
+    padding: 3.2rem;
+    transform: translate(0, 30%);
+    margin-bottom: 20rem;
+    text-align: center;
+  }
+
+  .box-purple h1 {
+    font-size: 3.2rem;
+    line-height: 110%;
+    margin-bottom: 1.6rem;
+  }
+
+  .box-purple p {
+    font-size: 1.6rem;
+  }
+
+  .coil {
+    display: none;
+  }
+
+  .socials {
+    margin-bottom: 4rem;
+    gap: 1.6rem;
+  }
+}
