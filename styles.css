@@ -73,17 +73,17 @@ h6 {
 
 @font-face {
   font-family: "h1 font";
-  src: url("./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
+  src: url("./starter-code/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "manrope";
-  src: url("./assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+  src: url("./starter-code/assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: "fraunces";
-  src: url("./assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+  src: url("./starter-code/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
 }
 
 .hero {
