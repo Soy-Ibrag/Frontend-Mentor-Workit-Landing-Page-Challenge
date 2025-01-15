@@ -6,7 +6,7 @@ This project is a solution to the **Workit Landing Page** challenge from [Fronte
 
 ## 🚀 Live Demo
 
-You can check out the live version of the project [here](#link-to-live-site).
+You can check out the live version of the project [here](https://soy-ibrag.github.io/Frontend-Mentor-Workit-Landing-Page-Challenge/).
 
 ## 🖼️ Project Screenshot
 
